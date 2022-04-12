@@ -11,39 +11,15 @@ body {
   background-size: 90rem;
 }
 
-.barra__navegacion {
-  background-color: blueviolet;
-  font-size: 22px;
-  font-family: 'Cinzel Decorative', cursive;
-}
-
-.barra__navegacion ul {
-  list-style: none;
-  display: flex;
-}
-
-
-.barra__navegacion li {
-  margin: 10px 10px;
-  padding: 10px;
-}
-
-.barra__navegacion a:hover {
-  background-color: brown;
-  margin: 10px;
-}
-
 .logo {
   height: 60px;
   float: left;
-  margin: 5px;
 }
 
 .text__bienvenido {
   font-family: 'Cinzel Decorative', cursive;
-  font-size: 60px;
+  font-size: 40px;
   color: mediumslateblue;
-  margin: 5px;
 }
 
 /* Zoom al pasar flecha por imagen */
@@ -58,35 +34,30 @@ body {
 
 /* Parrafo de index.html "solo para gamer" */
 .textoparrafo__inicio {
-  position: absolute;
-  font-size: 35px;
-  left: 10px;
-  top: 470px;
   font-family: 'Roboto Mono', monospace;
   color: white;
 }
 
-footer {
+ footer {
   background-color: black;
   color: white;
   position: absolute;
-  bottom: -40%;
+  bottom: -150%;
   width: 100%;
-  height: 20px;
+  height: 20px; 
 }
 
-footer p {
+ footer p {
   color: white;
   font-size: 18px;
   text-align: center;
-}
+} 
 
 /* Titulos web y Preguntas a exepcion de titulos en index.html*/
 .titulos__web {
   font-family: 'Cinzel Decorative', cursive;
   font-size: 22px;
   color: mediumslateblue;
-  margin: 5px;
 }
 
 /* Textos del sitio web parrafos etc a exepcion de texto en index.html  */
@@ -145,172 +116,5 @@ footer p {
   transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
 }
-
 /*--------------------------------------------
-ACA UTILIZO GRID
-Imagenes inicio "index.html*/
-.gallery__container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: 150px;
-  padding: 4px;
-  grid-gap: 4px;
-}
 
-.gallery__img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.gallery__item:nth-child(1) {
-  grid-row-start: span 2;
-}
-
-/* layout web trailers.html */
-#grilla {
-  display: grid;
-  grid-template-areas:
-    "header "
-    "videostrailers"
-    "footer";
-  overflow: hidden;
-}
-
-header {
-  grid-area: header;
-}
-
-footer {
-  grid-area: footer;
-}
-
-section#videostrailers {
-  grid-area: videostrailers;
-}
-
-.border {
-  border: 2px solid orangered;
-}
-
-/* layout web juegos.html*/
-#grillajuegos {
-  display: grid;
-  grid-template-areas:
-    "header"
-    "infojuegos"
-    "footer";
-}
-
-header {
-  grid-area: header;
-}
-
-footer {
-  grid-area: footer;
-}
-
-section#infojuegos {
-  grid-area: infojuegos;
-}
-
-/* ------------------------------------- */
-@media only screen and (max-width:768px) {
-
-  /* barra navegacion del sitio web */
-  header {
-    padding: 2px;
-  }
-
-  .menu li a {
-    color: white;
-    background-color: black;
-  }
-
-  .barra__navegacion ul {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .barra__navegacion {
-    background-color: blueviolet;
-    font-size: 10px;
-    font-family: 'Cinzel Decorative', cursive;
-  }
-
-  .barra__navegacion li {
-    margin: 1px 1px;
-    padding: 0px;
-  }
-
-  /* videos trailer */
-  iframe {
-    width: 250px;
-    height: 150px;
-  }
-
-  /* pie de pagina */
-  footer {
-    background-color: black;
-    color: white;
-    position: absolute;
-    bottom: -40%;
-    width: 40%;
-    height: 20px;
-  }
-
-  footer p {
-    color: white;
-    font-size: 10px;
-    text-align: center;
-  }
-
-
-  /* pagina juegos.html */
-  .images__juegos {
-    position: relative;
-    top: 80px;
-    left: 8px;
-    width: 200px;
-    height: 100px;
-    float: left;
-    z-index: 2;
-    border-radius: 3%;
-    box-shadow: 6px 9px 12px black;
-    filter: brightness(60%);
-  }
-
-  .titulos__webjuegos {
-    font-family: 'Cinzel Decorative', cursive;
-    font-size: 19px;
-    color: mediumslateblue;
-    max-width: 60%;
-  }
-
-  .textoparrafos__webjuegos {
-    font-size: 13px;
-    left: 5px;
-    font-family: 'Roboto Mono', monospace;
-    color: white;
-    max-width: 70%;
-  }
-
-  /* pagina index.html */
-
-  .text__bienvenido {
-    font-family: 'Cinzel Decorative', cursive;
-    font-size: 22px;
-    color: mediumslateblue;
-    max-width: 60%;
-  }
-
-  .textoparrafo__inicio {
-    position: absolute;
-    font-size: 20px;
-    font-family: 'Roboto Mono', monospace;
-    color: white;
-  }
-
-}
-
-/*----------------------------------------------*/
