@@ -25,7 +25,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #6a2be0;">
             <img class="logo" src="Images/logo.png" alt="logo">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html">MaxGaming</a>
@@ -65,33 +65,31 @@
     </div>
   </header>
   <main>
-    <section class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <span>
-            <h1 class="display-3 text__bienvenido">Bienvenido a MaxGaming</h1>
-          </span>
-          <p class=" col-sm-9 textoparrafo__inicio">Sitio Web solo para gamers, podras encontrar todo acerca de juegos,
-            noticias,
-            personajes y todo lo relacionado al mundo gaming
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <img src="Images/imageinicio1.jpg" alt="marioinicio" class="img-fluid" width="300px">
-        </div>
-        <div class="col-md-4">
-          <img src="Images/imageinicio2.jpg" alt="crashinicio" class="img-fluid" width="300px">
-        </div>
-        <div class="col-md-4">
-          <img src="Images/imageinicio3.jpg" alt="zeldainicio" class="img-fluid" width="300px">
-        </div>
-      </div>
-    </section>
+    <section>
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Images/imageinicio1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Images/imageinicio2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Images/imageinicio3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      <section>
   </main>
   <footer>
     <p> 2022 ©Copyright Maximilianoo.C</p>
