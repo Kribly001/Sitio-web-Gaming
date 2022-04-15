@@ -114,6 +114,7 @@ footer p {
 }
 
 @media only screen and (max-width:768px) {
+
   /* pagina juegos.html */
   .images__juegos {
     position: relative;
@@ -144,5 +145,8 @@ footer p {
   }
 
 }
-
+.bordecito{
+border: 5px solid;
+border-color: blueviolet;
+}
 /*--------------------------------------------
