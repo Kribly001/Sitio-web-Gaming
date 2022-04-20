@@ -1,0 +1,25 @@
+{
+  "name": "ejercicio-2",
+  "version": "1.0.0",
+  "description": "Sitio web Gaming curso Desarrollo web Coderhouse 😂🌱",
+  "main": "index.js",
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+"build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
+"watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kribly001/desarrolloweb-coder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kribly001/desarrolloweb-coder/issues"
+  },
+  "homepage": "https://github.com/Kribly001/desarrolloweb-coder#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

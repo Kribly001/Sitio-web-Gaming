@@ -1,0 +1,20 @@
+.images__juegos {
+    position: relative;
+    top: 80px;
+    left: 8px;
+    background-size: cover;
+    width: 330px;
+    height: 190px;
+    float: left;
+    margin: 20px;
+    z-index: 2;
+    border-radius: 3%;
+    box-shadow: 6px 9px 12px black;
+    filter: brightness(60%);
+  }
+
+  .images__personajes {
+    height: 150px;
+    margin: 10px;
+  }
+  

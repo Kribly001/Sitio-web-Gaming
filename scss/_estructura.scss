@@ -1,0 +1,32 @@
+@import "variables";
+
+* {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../Images/fondoweb.jpg);
+    background-size: 90rem;
+}
+
+.logo {
+    height: 60px;
+    float: left;
+  }
+  
+footer {
+    background-color: $colornegro;
+    color: white;
+    position: absolute;
+    bottom: -90%;
+    width: 100%;
+    height: 20px;
+
+    p {
+        color: white;
+        font-size: 18px;
+        text-align: center;
+    }
+}
