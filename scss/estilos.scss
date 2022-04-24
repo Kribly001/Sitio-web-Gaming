@@ -23,7 +23,7 @@
         font-family: 'Cinzel Decorative', cursive;
         font-size: 19px;
         color: mediumslateblue;
-        max-width: 60%;
+        max-width: 90%;
     }
 
     .textoparrafos__webjuegos {
@@ -31,8 +31,13 @@
         left: 5px;
         font-family: 'Roboto Mono', monospace;
         color: white;
-        max-width: 70%;
+        max-width: 90%;
     }
+
+    .images__personajes {
+        height: 80px;
+        margin: 10px;
+      }
 
 }
 
