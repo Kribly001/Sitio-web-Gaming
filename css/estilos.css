@@ -23,10 +23,12 @@ footer {
     font-size: 18px;
     text-align: center; }
 
+/* Utilizacion Mixin en _tipografias.scss*/
 .text__bienvenido {
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: "Cinzel Decorative";
   font-size: 30px;
   color: mediumslateblue; }
+/* ------------------------------ */
 
 .textoparrafo__inicio {
   font-family: 'Roboto Mono', monospace;
@@ -61,6 +63,17 @@ footer {
   font-family: 'Roboto Mono', monospace;
   color: white; }
 
+  /* Utilizacion Maps en _efectos.scss */
+.bordetrailer-ancho {
+  border: 5px solid; }
+
+.colortrailer-borde1 {
+  border-color: blueviolet; }
+
+.colortrailer-borde2 {
+  border-color: red; }
+/* ---------------------------- */
+
 .zoom {
   margin-left: 30px;
   transition: .5s; }
@@ -74,10 +87,6 @@ footer {
   -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
   transform: rotate(360deg);
   -webkit-transform: rotate(360deg); }
-
-.bordecito {
-  border: 5px solid;
-  border-color: blueviolet; }
 
 .images__juegos {
   position: relative;
@@ -93,9 +102,13 @@ footer {
   box-shadow: 6px 9px 12px black;
   filter: brightness(60%); }
 
-.images__personajes {
-  height: 150px;
+/* Utilizacion Extend en _imagenes.scss */
+.images__personajes, .images__personaje--nueva {
+  height: 150px; }
+
+.images__personaje--nueva {
   margin: 10px; }
+/* ----------------------------- */
 
 @media only screen and (max-width: 768px) {
   /* pagina juegos.html */
@@ -121,6 +134,6 @@ footer {
     font-family: 'Roboto Mono', monospace;
     color: white;
     max-width: 90%; }
-  .images__personajes {
+  .images__personajes, .images__personaje--nueva {
     height: 80px;
     margin: 10px; } }

@@ -13,8 +13,13 @@
     filter: brightness(60%);
   }
 
+  //Extend   
   .images__personajes {
     height: 150px;
-    margin: 10px;
   }
-  
+
+.images__personaje--nueva{
+  @extend .images__personajes;
+  margin: 10px;
+}
+// -------------------

@@ -1,8 +1,15 @@
+
+// Mixin
+@mixin textobienvenida($tipofuente, $tamanofuente, $colorfuente){
+  font-family: $tipofuente;
+  font-size: $tamanofuente;
+  color:$colorfuente;
+}
+
 .text__bienvenido {
-    font-family: 'Cinzel Decorative', cursive;
-    font-size: 30px;
-    color: mediumslateblue;
+  @include textobienvenida('Cinzel Decorative', 30px, mediumslateblue)
   }
+// ----------------------------
 
   .textoparrafo__inicio {
     font-family: 'Roboto Mono', monospace;

@@ -1,3 +1,20 @@
+// Maps
+$bordestrailercolor:(borde1:blueviolet, borde2:red);
+$anchobordestrailer:(ancho:5px solid);
+
+@each $clave1, $valor1 in $anchobordestrailer{
+    .bordetrailer-#{$clave1}{
+        border: $valor1;
+
+    }
+}
+
+@each $clave, $valor in $bordestrailercolor{
+    .colortrailer-#{$clave}{
+        border-color: $valor ;
+    }
+}
+// ----------------------------------
 .zoom {
     margin-left: 30px;
     transition: .5s;
@@ -19,7 +36,3 @@
     }
 }
 
-.bordecito {
-    border: 5px solid;
-    border-color: blueviolet;
-}
