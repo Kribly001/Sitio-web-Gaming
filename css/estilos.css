@@ -1,7 +1,9 @@
 * {
   padding: 0%;
   margin: 0%;
-  text-decoration: none; }
+  text-decoration: none;
+  cursor: url(https://cur.cursors-4u.net/games/gam-1/gam62.cur), auto !important;
+  /*Efecto cursor*/ }
 
 body {
   background-image: url(../Images/fondoweb.jpg);
@@ -23,12 +25,10 @@ footer {
     font-size: 18px;
     text-align: center; }
 
-/* Utilizacion Mixin en _tipografias.scss*/
 .text__bienvenido {
   font-family: "Cinzel Decorative";
   font-size: 30px;
   color: mediumslateblue; }
-/* ------------------------------ */
 
 .textoparrafo__inicio {
   font-family: 'Roboto Mono', monospace;
@@ -63,7 +63,6 @@ footer {
   font-family: 'Roboto Mono', monospace;
   color: white; }
 
-  /* Utilizacion Maps en _efectos.scss */
 .bordetrailer-ancho {
   border: 5px solid; }
 
@@ -72,7 +71,6 @@ footer {
 
 .colortrailer-borde2 {
   border-color: red; }
-/* ---------------------------- */
 
 .zoom {
   margin-left: 30px;
@@ -102,13 +100,11 @@ footer {
   box-shadow: 6px 9px 12px black;
   filter: brightness(60%); }
 
-/* Utilizacion Extend en _imagenes.scss */
 .images__personajes, .images__personaje--nueva {
   height: 150px; }
 
 .images__personaje--nueva {
   margin: 10px; }
-/* ----------------------------- */
 
 @media only screen and (max-width: 768px) {
   /* pagina juegos.html */
