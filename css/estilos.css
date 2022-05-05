@@ -25,6 +25,9 @@ footer {
     font-size: 18px;
     text-align: center; }
 
+.centrar {
+  text-align: center; }
+
 .text__bienvenido {
   font-family: "Cinzel Decorative";
   font-size: 30px;
